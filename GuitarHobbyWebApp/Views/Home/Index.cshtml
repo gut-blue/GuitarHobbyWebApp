@@ -1,0 +1,28 @@
+﻿@section Styles {
+    <style>
+        .hobby-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .hobby-img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+}
+
+<div class="hobby-container">
+    <h1>Welcome to My Guitar Hobby</h1>
+    <p>Guitar has been a huge passion of mine for years. I love playing, collecting, and teaching others.</p>
+
+    <img src="~/images/guitar1.jpg" alt="Playing Guitar" class="hobby-img">
+    <img src="~/images/guitar2.jpg" alt="My Guitar Collection" class="hobby-img">
+
+    <p>I primarily play an Eastman guitar (acoustic electric) and regularly 
+        play at weddings, and live music at restaurants.
+        the guitar is an instrument of endless possibilities. 
+        From classic rock to jazz, I enjoy exploring different styles.</p>
+
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Calculator">Calculate Tutoring Cost</a>
+</div>
