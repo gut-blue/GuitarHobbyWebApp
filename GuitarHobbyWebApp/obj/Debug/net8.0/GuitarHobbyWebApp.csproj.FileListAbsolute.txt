@@ -28,3 +28,4 @@
 /Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/obj/Debug/net8.0/GuitarHobbyWebApp.pdb
 /Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/obj/Debug/net8.0/GuitarHobbyWebApp.genruntimeconfig.cache
 /Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/obj/Debug/net8.0/ref/GuitarHobbyWebApp.dll
+/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/obj/Debug/net8.0/GuitarHobbyWebApp.sourcelink.json

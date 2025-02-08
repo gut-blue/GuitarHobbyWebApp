@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/images/Guitar1.jpeg",
+      "PackagePath": "staticwebassets/images/Guitar1.jpeg"
+    },
+    {
+      "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/images/Guitar2.jpg",
+      "PackagePath": "staticwebassets/images/Guitar2.jpg"
+    },
+    {
+      "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/images/Guitar3.JPG",
+      "PackagePath": "staticwebassets/images/Guitar3.JPG"
+    },
+    {
+      "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/images/Guitar4.jpg",
+      "PackagePath": "staticwebassets/images/Guitar4.jpg"
+    },
+    {
+      "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/images/favicon.ico",
+      "PackagePath": "staticwebassets/images/favicon.ico"
+    },
+    {
       "Id": "/Users/gutblue/RiderProjects/GuitarHobbyWebApp/GuitarHobbyWebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

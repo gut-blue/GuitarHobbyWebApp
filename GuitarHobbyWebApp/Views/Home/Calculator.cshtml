@@ -1,38 +1,30 @@
-@section Styles {
-    <style>
-        .calculator-container {
-            text-align: center;
-            padding: 20px;
-        }
-        .calculator-box {
-            max-width: 400px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-        .result {
-            font-weight: bold;
-            margin-top: 10px;
-        }
-    </style>
-}
-
 <div class="calculator-container">
+
+    <!-- Title -->
     <h1>Guitar Tutoring Calculator</h1>
+
+    <!-- Container for the calculator form and buttons -->
     <div class="calculator-box">
+
+        <!-- Prompt user how many hours they're interested in taking lessons per week -->
         <p>Enter the number of hours you'd like to play guitar per week!</p>
+
+        <!-- Input for users to enter number of hours -->
         <label for="hours">Number of Hours:</label>
         <input type="number" id="hours" class="form-control" min="1">
 
+        <!-- Displays fixed hourly lesson rate -->
         <label>Hourly Rate:</label>
         <input type="text" id="rate" class="form-control" value="30" readonly>
 
+        <!-- Button to calculate total cost -->
         <button class="btn btn-primary mt-2" id="calculate">Calculate</button>
 
+        <!-- Displays cost -->
         <p class="result">Total Cost: <span id="total">$0.00</span></p>
 
+        <!-- Button to return to homepage -->
         <a class="btn btn-secondary mt-2" asp-controller="Home" asp-action="Index">Back to Home</a>
+
     </div>
 </div>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GuitarHobbyWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6d13dca5d948e7bf022a69ffe151516c589e15d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GuitarHobbyWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GuitarHobbyWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

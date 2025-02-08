@@ -1,28 +1,38 @@
-﻿@section Styles {
-    <style>
-        .hobby-container {
-            text-align: center;
-            padding: 20px;
-        }
-        .hobby-img {
-            max-width: 100%;
-            height: auto;
-            margin: 10px 0;
-        }
-    </style>
-}
+﻿<div class="home-container">
 
-<div class="hobby-container">
-    <h1>Welcome to My Guitar Hobby</h1>
+    <!-- Welcome message -->
+    <h1>Welcome to My Guitar Lesson Scheduling Page!</h1>
+
+    <!-- Brief personal introduction -->
     <p>Guitar has been a huge passion of mine for years. I love playing, collecting, and teaching others.</p>
 
-    <img src="~/images/guitar1.jpg" alt="Playing Guitar" class="hobby-img">
-    <img src="~/images/guitar2.jpg" alt="My Guitar Collection" class="hobby-img">
+    <!-- Gallery of images -->
+    <div class="hobby-gallery">
+        <img src="~/images/Guitar1.jpeg" alt="Playing Guitar" class="hobby-img">
+        <img src="~/images/Guitar2.jpg" alt="Another guitar image" class="hobby-img">
+        <img src="~/images/Guitar3.JPG" alt="Another guitar image" class="hobby-img">
+    </div>
 
-    <p>I primarily play an Eastman guitar (acoustic electric) and regularly 
-        play at weddings, and live music at restaurants.
-        the guitar is an instrument of endless possibilities. 
-        From classic rock to jazz, I enjoy exploring different styles.</p>
+    <!-- A short description of the user's guitar playing experience and style -->
+    <p>I primarily play an Eastman guitar (acoustic-electric) and regularly perform 
+        at weddings, restaurants, and live music venues. I love learning new songs
+        and equally love teaching students. I have written and recorded several 
+        songs and played with a few different bands. Guitar has always been a hobby
+        for me, not really something I've wanted to make money doing. I mostly just
+        enjoy listening to the sound of the guitar, learning new techniques, new
+        songs and seeing other people's passions for the instrument. <br><br> 
+        I recently sold my Les Paul 2015 Honeyburst, it was a sad
+        decision, but I am moving more towards playing acoustic-electric guitars or
+        even semi-hollow body guitars like the Gretsch guitar you'll see in one of
+        the photos above. The only electric guitar I now own was actually my first
+        guitar I used when learning. It's called a Squire Jazzmaster. Primarily, 
+        you'll see me using my Eastman guitar, as I love the warm tone and have 
+        found a lot of utility with it. I'm excited to learn more about you and 
+        learn guitar together! Feel free to reach out at 123-456-7890!</p>
+    
 
-    <a class="btn btn-primary" asp-controller="Home" asp-action="Calculator">Calculate Tutoring Cost</a>
+    <!-- Link to the calculator page where students can figure out lesson costs -->
+    <div class="text-center">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Calculator">Calculate Tutoring Cost</a>
+    </div>
 </div>

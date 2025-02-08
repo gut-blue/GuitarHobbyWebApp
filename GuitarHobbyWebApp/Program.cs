@@ -14,7 +14,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+
+// Ensure that static files can be served from wwwroot folder
+app.UseStaticFiles();  // This allows images from wwwroot to be accessible
 
 app.UseRouting();
 

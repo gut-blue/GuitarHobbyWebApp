@@ -3,28 +3,39 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Dynamic page title (I think) -->
     <title>@ViewData["Title"] - GuitarHobbyWebApp</title>
-    <link rel="icon" type="image/png" href="~/favicon.ico"/>
+
+    <!-- My custom icon for the site of a lil guitar -->
+    <link rel="icon" type="image/png" href="~/images/favicon.ico"/>
+
+    <!-- Bootstrap & CSS styles -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/GuitarHobbyWebApp.styles.css" asp-append-version="true"/>
-
-    @RenderSection("Styles", required: false)  <!-- This line should be here -->
+    @RenderSection("Styles", required: false)
 </head>
 <body>
 <header>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GuitarHobbyWebApp</a>
+
+            <!-- Navbar toggle for mobile view (cool feature) -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Navbar links, visible on larger screens -->
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
+                    <!-- Home page link -->
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
+                    <!-- Calculator page link -->
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Calculator">Calculator</a>
                     </li>
@@ -33,17 +44,22 @@
         </div>
     </nav>
 </header>
+
+<!-- Main content container -->
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
+<!-- Footer section with copyright information -->
 <footer class="border-top footer text-muted">
     <div class="container">
-        2025 - GuitarHobbyWebApp | Created by Benson Grotegut
+        &#169; 2025 - GuitarHobbyWebApp | Created by Benson Grotegut
     </div>
 </footer>
+
+<!-- Include jQuery library, Bootstrap JS, and link my site.js -->
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
